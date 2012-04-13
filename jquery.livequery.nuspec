@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <version>1.2</version>
+    <version>1.3</version>
     <authors>Brandon Aaron,hazzik</authors>
     <owners>hazzik</owners>
     <projectUrl>http://github.com/hazzik/livequery</projectUrl>
@@ -20,5 +20,6 @@ Live Query is Dual licensed under the MIT (http://www.opensource.org/licenses/mi
   </metadata>
   <files>
     <file src="jquery.livequery.js" target="content\Scripts\jquery.livequery.js" />
+    <file src="jquery.livequery.min.js" target="content\Scripts\jquery.livequery.min.js" />
   </files>
 </package>
