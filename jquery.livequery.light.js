@@ -63,9 +63,7 @@ $.livequery.prototype = {
 
 		
 		// Call the first function for newly matched elements
-		nEls.each(function() {
-			query.fn.apply(this);
-		});
+		nEls.each(query.fn);
 	}
 };
 
